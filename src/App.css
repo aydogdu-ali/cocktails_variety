@@ -102,3 +102,24 @@ img {
 .logo {
   width: 12rem;
 }
+
+/* 
+====== 
+About
+======
+*/
+.about-section {
+  width: var(--smallWidth);
+  max-width: var(--maxWidth);
+  margin: 0.9rem auto;
+}
+.section-title {
+ text-align: center;
+  letter-spacing: 2px;
+}
+
+.about-section p {
+  line-height: 2rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
