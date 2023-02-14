@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+// about sayfası burda sadece bilgi verdik ve yer tutucu olarak meşhur Lorem ipsum'u kullandık.
 const About = () => {
   return (
     <section className='section about-section'>
