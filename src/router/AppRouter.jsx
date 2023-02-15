@@ -19,7 +19,7 @@ const AppRouter = () => {
       <Routes>
 <Route path = "/" element ={<Home/>}/>
 <Route path = "/about" element ={<About/>}></Route>
-<Route path = "/coctail/:id" element ={<SingleCocktail/>}></Route>
+<Route path = "/cocktail/:id" element ={<SingleCocktail/>}></Route>
 
 <Route path = "*" element ={<Error/>}></Route>
 {/*PrivateRouter ile kullanıcı girişi varsa Detail Sayasını görebilecek yoksa login olması gerektiği için logine yönlendirdim.*/}

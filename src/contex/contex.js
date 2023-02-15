@@ -23,8 +23,10 @@ export const AppProvider = ({children})=>{
 
         if(drinks){
 const newCocktails = drinks.map((item)=>{
+  /*Data içinde bulunan drinksin içinde olan her bir objedeki veriyi kullanmak için destructuring
+   yaptık*/
    const { idDrink, strDrink, strDrinkThumb, strAlcoholic, strGlass } = item;
-
+{/*Api 'den gelen isimleri daha anlaşılır yapmak için array a bu şekilde döndürdük. */}
    return {
      id: idDrink,
      name: strDrink,

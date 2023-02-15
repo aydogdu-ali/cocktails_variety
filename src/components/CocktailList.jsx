@@ -1,7 +1,8 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import { useGlobalContext } from '../contex/contex'
+import Cocktail from './Cocktail'
 import Loading from './Loading'
-import Cocktail from "./Cocktail"
+
 
 const CocktailList = () => {
   const{cocktails, loading} = useGlobalContext()
@@ -16,9 +17,19 @@ const CocktailList = () => {
     
   }
 
-  return (
-    <div>CockailList</div>
-  )
+  return <section className='section'>
+    
+    <h2 className='section-title'>
+      cocktails
+    </h2>
+    <div className='cocktails-center'>
+
+      {cocktails.map((item)=>{
+        return <Cocktail key = {item.id} {...item}/>
+      })}
+
+    </div>
+    </section>;
 }
 
 export default CocktailList
