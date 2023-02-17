@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="nav-center">
         {/*logo ya tıklanınca anasayfaya yönlendirdik.*/}
         <Link to="/">
-          <img className="logo" src={logo} alt="coctail db logo" />
+          <img className="logo" src={logo} alt="cocktail db logo" />
         </Link>
         <ul className="nav-links">
           {/*Navbar da gösterdiğim sayfalara gitmek  için yönlendirme yaptık.*/}

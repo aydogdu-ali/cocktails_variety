@@ -16,7 +16,7 @@ setSearchText(text);
 setText("")
   }
   return (
-    <section className='section- search'>
+    <section className='section  search'>
       <form action="" className='search-form' onSubmit={handleSubmit}>
         <div className="form-control">
           <label htmlFor="name">search</label>
